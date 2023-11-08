@@ -1,3 +1,11 @@
+New version of my school project 'The Cookbok' including
+  - different architecture
+  - asynchronous work
+  - better organization
+  - some designs for fun
+
+    
+
 # TheCookbookNewVersion
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
