@@ -4,9 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { CoreModule } from './modules/core/core.module';
-import { ProfileModule } from './modules/feature/profile/profile.module';
-import { RecipeModule } from './modules/feature/recipe/recipe.module';
-import { ShoppingListModule } from './modules/feature/shopping-list/shopping-list.module';
 
 @NgModule({
   declarations: [
@@ -16,10 +13,7 @@ import { ShoppingListModule } from './modules/feature/shopping-list/shopping-lis
     BrowserModule,
     AppRoutingModule,
     MatSnackBarModule,
-    CoreModule,
-    ProfileModule,
-    RecipeModule,
-    ShoppingListModule
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
