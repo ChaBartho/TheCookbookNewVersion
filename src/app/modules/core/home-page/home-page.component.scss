@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: #C28593;
+  height: 800px;
+  width: auto;
+}
+
+.title {
+  cursor: pointer;
+  padding: 15px;
+  background:
+  linear-gradient(#e49201 0 0) top,
+  linear-gradient(#e49201 0 0) left,
+  linear-gradient(#e49201 0 0) bottom,
+  linear-gradient(#e49201 0 0) right;
+background-size: var(--d, 0) 3px, 3px var(--d, 0);
+background-repeat: no-repeat;
+transition: 0.5s;
+}
+
+.title:hover {
+--d: 100%;
+}
